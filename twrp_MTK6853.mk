@@ -35,7 +35,7 @@ $(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 $(call inherit-product-if-exists, vendor/pb/config/common.mk)
 
 # Inherit from the Device Tree itself.
-$(call inherit-product, device/realme/MTK6853/device.mk)
+$(call inherit-product, device/MTK/MTK6853/device.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root) \
 	$(LOCAL_PATH)/prebuilt/dtb:dtb.img
