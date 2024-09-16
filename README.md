@@ -31,7 +31,7 @@ Finally execute these:
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch twrp_MTK6853-eng
-mka -j$(nproc --all) recoveryimage
+make -j$(nproc --all) recoveryimage
 
 |or|
 

@@ -34,7 +34,7 @@ TW_EXCLUDE_TWRP_APP := true
 TW_BACKUP_EXCLUSIONS := /data/fonts/,/data/nandswap
 
 # Maintainer/Version
-TW_DEVICE_VERSION := Dr-Wolfbain
+TW_DEVICE_VERSION := 酷安-jsbsbxjxh66
 
 # Set brightness path and level
 TW_MAX_BRIGHTNESS := 2047
