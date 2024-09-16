@@ -13,7 +13,7 @@
 
 ## 编译
 
-First checkout minimal twrp with omnirom tree:
+First checkout minimal twrp with omnirom tree(拉取twrp源码):
 
 ```
 repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11 --groups=all,-notdefault,-device,-darwin,-x86,-mips
@@ -25,7 +25,7 @@ repo sync
 repo sync --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 
-Finally execute these:
+Finally execute these(开始编译):
 
 ```
 export ALLOW_MISSING_DEPENDENCIES=true
