@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/realme/MTK6853
+LOCAL_PATH := device/MTK/MTK6853
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
