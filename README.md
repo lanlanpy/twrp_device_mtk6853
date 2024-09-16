@@ -38,7 +38,9 @@ mka -j$(nproc --all) recoveryimage
 export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch twrp_mtk6853-eng; mka -j$(nproc --all) recoveryimage
 
 
-#FOR Building ofox      
+|or|
+
+FOR Building ofox      
 cd ~/OrangeFox # (or whichever directory has the synced manifest)
     
   source build/envsetup.sh
@@ -52,7 +54,7 @@ cd ~/OrangeFox # (or whichever directory has the synced manifest)
   unset USE CCACHE
 
   
+|or|
 
-
-# for the 11.0 (or higher) branch
+for the 11.0 (or higher) branch
   lunch twrp_MTK6853-eng && mka adbd recoveryimage
