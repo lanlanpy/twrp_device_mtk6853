@@ -1,5 +1,5 @@
 # Realme/OPPO MTK6853
-                      
+目前OPPO A72 F28可解密data其他机型或版本系统不能解密替换解密文件然后重新编译就ok了， 先解包官方recovery 替换到twrp的odm/vendor/app和vendor/app里面的即可                  
 ## Device specifications
 
 | Device                  | mtk6853                                  |
