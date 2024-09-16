@@ -1,24 +1,5 @@
 # Realme/OPPO MTK6853
                       
-#FOR Building ofox      
-cd ~/OrangeFox # (or whichever directory has the synced manifest)
-    
-  source build/envsetup.sh
-    
-  export ALLOW_MISSING_DEPENDENCIES=true
-  
-  export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-  
-  export LC_ALL="C"
-  
-  unset USE CCACHE
-
-  
-
-
-# for the 11.0 (or higher) branch
-  lunch twrp_RMX2117-eng && mka adbd recoveryimage
-
 ## Device specifications
 
 | Device                  | mtk6853                                  |
@@ -55,3 +36,23 @@ mka -j$(nproc --all) recoveryimage
 |or|
 
 export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch twrp_mtk6853-eng; mka -j$(nproc --all) recoveryimage
+
+
+#FOR Building ofox      
+cd ~/OrangeFox # (or whichever directory has the synced manifest)
+    
+  source build/envsetup.sh
+    
+  export ALLOW_MISSING_DEPENDENCIES=true
+  
+  export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
+  
+  export LC_ALL="C"
+  
+  unset USE CCACHE
+
+  
+
+
+# for the 11.0 (or higher) branch
+  lunch twrp_MTK6853-eng && mka adbd recoveryimage
