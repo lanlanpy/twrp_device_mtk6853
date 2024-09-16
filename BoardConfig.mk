@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Device Path Identifier
-DEVICE_PATH := device/realme/MTK6853
+DEVICE_PATH := device/MTK/MTK6853
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
